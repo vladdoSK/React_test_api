@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/React_test_api/static/css/main.916abd92.css",
+    "main.js": "/React_test_api/static/js/main.63b38812.js",
+    "index.html": "/React_test_api/index.html",
+    "main.916abd92.css.map": "/React_test_api/static/css/main.916abd92.css.map",
+    "main.63b38812.js.map": "/React_test_api/static/js/main.63b38812.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.916abd92.css",
+    "static/js/main.63b38812.js"
+  ]
+}
