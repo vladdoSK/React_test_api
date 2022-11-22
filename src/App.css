@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.body {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+}
+
+label{
+  margin-right: 5px;
+}
+
+.search-field {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  
+.search-field  button {
+    min-width: 50px;
+    min-height: 30px;
+    color: white;
+    background-color: #82b2ff;
+    font-weight: bold;
+    margin-left: 20px;
+    cursor: pointer;
+}

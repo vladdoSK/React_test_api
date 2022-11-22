@@ -1,0 +1,17 @@
+.container__items{
+    padding: 5px 10px;
+    width: 50%;
+    border: 2px solid blue;
+    background: rgb(96, 177, 253);
+    margin: auto;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: .6s;
+    text-align: center;
+}
+
+.container__items:hover{
+    transform: scale(1.1);
+    transition: .6s;
+}
+

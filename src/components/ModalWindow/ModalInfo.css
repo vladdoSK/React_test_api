@@ -1,0 +1,43 @@
+.modal{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0);
+    z-index: 3;
+
+}
+
+.modal.active {
+    transform: scale(1);
+}
+
+.modal_content {
+    height: 300px;
+    border-radius: 20px;
+    background: linear-gradient(to bottom,rgb(86, 84, 84), rgb(1, 1, 1));
+    animation: gradient 5s ease infinite;
+    background-size: 200% 200%;
+
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    overflow: auto;
+    padding: 20px;
+}
+
+.modal_content h2{
+    color:yellow;
+}
+
+.holiday__items{
+    margin-bottom: 5px;
+    font-size: 17px;
+}
